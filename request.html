@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<title>Requests</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card-2">
+    <a href="/" class="w3-bar-item w3-button"><b>CREATE</b>Comm</a>
+    <img class="img-responsive2"       
+       src="http://i63.tinypic.com/ofv6fn.png" width="36px" height="36px">
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="/request" class="w3-bar-item w3-button">Requests</a>
+      <a href="/message" class="w3-bar-item w3-button">Messages</a>
+      <a href="/profile" class="w3-bar-item w3-button">Profile</a>
+      <a href="/signin" class="w3-bar-item w3-button">Sign In</a>
+    </div>
+  </div>
+</div>
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+
+</header>
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+  <img class="w3-image" src="http://i66.tinypic.com/654siv.jpg" alt="">
+  <div class="w3-display-middle w3-margin-top w3-center">
+    <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>Requests</b></span> <span class="w3-hide-small w3-text-light-grey"></span></h1>
+  </div>
+</header>
+
+<!-- Page content -->
+<div class="w3-content w3-padding" style="max-width:1564px">
+    
+  <!-- Request Section -->
+  <div class="w3-container w3-padding-32" id="request">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Commission</h3>
+    <p>Submit a commission for a certain style of art and subject and we will return a list of artists who may be interested in your project.</p>
+        
+    <form action="/action_page.php" target="_blank">
+        <p class="question">What type of art are you looking for?</p>
+        <ul class="answers">
+            <input type="radio" name="q1" value="a" id="q1a"><label for="q1a">  Digital Art</label><br/>
+            <input type="radio" name="q1" value="b" id="q1b"><label for="q1b">  Physical Art</label><br/>
+            <input type="radio" name="q1" value="c" id="q1c"><label for="q1c">  Logos</label><br/>
+            <input type="radio" name="q1" value="d" id="q1d"><label for="q1d">  Pop Art</label><br/>
+            <input type="radio" name="q1" value="e" id="q1e"><label for="q1e">  Anime</label><br/>
+            <input type="radio" name="q1" value="f" id="q1f"><label for="q1f">  Portrait</label><br/>
+            <input type="radio" name="q1" value="g" id="q1g"><label for="q1g">  Realistic</label><br/>
+            <input type="radio" name="q1" value="h" id="q1h"><label for="q1h">  Other</label><br/>
+        </ul>
+        <p class="question">Subject of your art?</p>
+        <ul class="answers">
+            <input type="radio" name="q2" value="a" id="q2a"><label for="q2a">  Book Characters</label><br/>
+            <input type="radio" name="q2" value="b" id="q2b"><label for="q2b">  Musicians</label><br/>
+            <input type="radio" name="q2" value="c" id="q2c"><label for="q2c">  Youtubers</label><br/>
+            <input type="radio" name="q2" value="d" id="q2d"><label for="q2d">  Movie Characters</label><br/>
+            <input type="radio" name="q2" value="e" id="q2e"><label for="q2e">  Scenery</label><br/>
+            <input type="radio" name="q2" value="f" id="q2f"><label for="q2f">  Personal Photo</label><br/>
+            <input type="radio" name="q2" value="g" id="q2g"><label for="q2g">  Other</label><br/>
+        </ul>
+      <input class="w3-input" type="text" placeholder="Comment" required name="Comment">
+      <button class="w3-button w3-black w3-section" type="submit">
+        <i class="fa fa-paper-plane"></i> SUBMIT
+      </button>
+    </form>
+  </div>
+  
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16">
+  <p>Powered by <a href="https://www.hshacks.com" title="HSHacks" target="_blank" class="w3-hover-text-green">HS Hacks</a></p>
+</footer>
+
+
+</body>
+</html>
